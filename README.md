@@ -17,4 +17,4 @@ step3)include userapp path in urls.py file
     path('user/', include('user.urls')),
 ]
 
-s
+
