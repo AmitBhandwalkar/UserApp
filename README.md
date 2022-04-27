@@ -14,7 +14,7 @@ step2) add userapp in settings.py file installed app list
 
 step3)include userapp path in urls.py file
 ->urlpatterns = [
-    path('user/', include('user.urls')),
+    path('user/', include('userapp.urls')),
 ]
 
 
